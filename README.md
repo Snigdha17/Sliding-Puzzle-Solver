@@ -11,9 +11,9 @@ puzzleSolver.py takes as input an 8 or a 15 puzzle and outputs the set of moves 
  
 The program runs from the command line as follows: 
  
-"python puzzleSolver.py <#Algorithm> <N> <INPUT_FILE_PATH> <OUTPUT_FILE_PATH>"
+"python puzzleSolver.py Algorithm N INPUT_FILE_PATH OUTPUT_FILE_PATH"
 where, 
- #Algorithm: 1 = A* and 2 = Memory bounded variant(IDA*) 
+ Algorithm: 1 = A* and 2 = Memory bounded variant(IDA*) 
 N: 3 = 8-puzzle 4 = 15-puzzle format. 
 INPUT_FILE_PATH = The path to the input file. 
 OUTPUT_FILE_PATH = The path to the output file. 
