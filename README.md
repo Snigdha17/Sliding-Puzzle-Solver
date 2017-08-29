@@ -12,10 +12,15 @@ The program can solve 8 and 15 tile puzzles.  The tile problem is where you are 
 The program runs from the command line as follows: 
  
 >_python puzzleSolver.py Algorithm N INPUT-FILE-PATH OUTPUT-FILE-PATH_
+
+
 >where, 
-> Algorithm: 1 = A* and 2 = Memory bounded variant(IDA*) 
->N: 3 = 8-puzzle 4 = 15-puzzle format. 
->INPUT-FILE-PATH = The path to the input file. 
->OUTPUT-FILE-PATH = The path to the output file. 
+> * Algorithm: 1 = A* and 2 = Memory bounded variant(IDA*) 
+
+> * N: 3 = 8-puzzle 4 = 15-puzzle format. 
+
+> * INPUT-FILE-PATH = The path to the input file.
+ 
+> * OUTPUT-FILE-PATH = The path to the output file. 
  
 #### e.g. The command _python puzzleSolver.py 1 3 input1.txt test-output.txt_  runs the A* algorithm on the 8 puzzle provided in input1.txt and write the moves out in test-output.txt. 
