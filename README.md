@@ -2,8 +2,8 @@
 
 ### The main goal of this program is to 
 
-1. go through the paces of the A* algorithm on a  toy problem
-2. learn the details of a memory bounded variant of the algorithm, IDA*
+1. Go through the paces of the A* algorithm on a  toy problem
+2. Study the details of a memory bounded variant of the algorithm, IDA*
 
 The program can solve 8 and 15 tile puzzles.  The tile problem is where you are given a matrix of numbers in a  n x n  board  with one blank tile. Given a scrambled initial order, your goal is to move the tiles over the blank space to achieve the final configuration, all numbers in the increasing order with the blank tile n space 9.
 
